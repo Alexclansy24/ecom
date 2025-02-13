@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import './Fooditem.css'
+import './FoodItem.css'
 import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext'
-const Fooditem = ({id,name,price,description,image}) => {
+const FoodItem = ({id,name,price,description,image}) => {
 
 
   const{cartItems,addToCart,removeFromCart,url} = useContext(StoreContext);
@@ -31,4 +31,4 @@ const Fooditem = ({id,name,price,description,image}) => {
   )
 }
 
-export default Fooditem
+export default FoodItem
