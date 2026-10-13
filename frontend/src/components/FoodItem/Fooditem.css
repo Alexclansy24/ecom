@@ -6,9 +6,11 @@
     transition: 0.3s;
     animation: fadeIn 1s ;
 }
-.food-item-image{
+.food-item-image {
     width: 100%;
-    border-radius: 15px 15px 0px 0px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 .food-item-info{
     padding: 20px;
@@ -37,8 +39,12 @@
     font-weight: 500;
     margin: 10px 0px;
 }
-.food-item-img-container{  
+.food-item-img-container {
     position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
 }
 .food-item-img-container .add{
     width: 35px;
