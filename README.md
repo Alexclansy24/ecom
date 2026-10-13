@@ -1,5 +1,7 @@
 For customers - https://food-delivery-frontend-ihvh.onrender.com/
 For admin - https://food-delivery-admin-fxb0.onrender.com/
+backend is deployed on free instance
+free instance will spin down with inactivity, which can delay requests by 50 seconds or more.
 it takes few seconds for products to load / server to responds 
 
 # E-Commerce Food Delivery Web App
